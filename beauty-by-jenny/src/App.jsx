@@ -3,6 +3,10 @@ import { Header } from './components/Header'
 import Nav from './components/Nav'
 import About from './components/About'
 import WorkPictures from './components/WorkPictures'
+
+
+
+
 function App() {
 
 
@@ -12,6 +16,7 @@ function App() {
     <Nav />
       <About />
       <WorkPictures />
+   
     </>
   )
 }
