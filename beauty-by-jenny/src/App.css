@@ -1,0 +1,62 @@
+@import "tailwindcss";
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: rgb(186, 157, 13);
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+}
+
+body {
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url("https://wallpapercat.com/w/full/c/0/c/2143379-2400x1601-desktop-hd-hair-salon-wallpaper.jpg")
+  
+}
+
+.backgroundColor {
+  background: linear-gradient(to bottom left, white, silver);
+}
+
+.navText:hover {
+  transition: 500ms;
+background: rgb(195, 141, 6);
+color: white;
+
+}
+
+#aboutContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+h1 {
+  font-size: 80px;
+}
+#profilePic {
+margin: 3%;
+  width: 340px;
+  height: 450px;
+  border: 5px solid rgb(174, 149, 2);
+}
+
+#workPics {
+  height: 500px;
+  width: 100%;
+  background-image: url("https://hemispherehair.com.au/wp-content/uploads/2023/01/shutterstock_1776190742.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+} 
