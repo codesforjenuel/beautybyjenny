@@ -22,7 +22,7 @@ body {
 }
 
 .backgroundColor {
-  background: linear-gradient(to bottom left, white, silver);
+  background-color: lightgrey;
 }
 
 .navText:hover {

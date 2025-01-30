@@ -4,7 +4,7 @@ import Nav from './components/Nav'
 import About from './components/About'
 import WorkPictures from './components/WorkPictures'
 import Services from './components/Services'
-
+import Location from './components/Location'
 
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
       <About />
       <WorkPictures />
    <Services />
+   <Location />
     </>
   )
 }
