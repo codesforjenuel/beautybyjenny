@@ -10,7 +10,7 @@ function Services() {
     <div
     
     className='flex flex-col bg-yellow-100 w-full items-center backgroundColor outline-2'>
-        <h1 className='drop-shadow-md flex flex-row'>SERVICES</h1>
+        <h1 className='drop-shadow-md flex flex-row' id='services'>SERVICES</h1>
 <div id='iconsContainer' className='flex flex-row justify-around m-3 w-full'>
 <PiHairDryerFill className='w-10 h-10 outline-2 rounded-full p-1' />
 <BsScissors className='w-10 h-10 outline-2 rounded-full p-1'/>

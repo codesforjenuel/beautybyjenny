@@ -3,7 +3,7 @@ import {motion} from 'framer-motion'
 
 export const Header = () => {
   return (
- <div className='w-full flex justify-center backgroundColor'>
+ <div className='w-full flex justify-center backgroundColor' id='banner'>
  <motion.img
  initial={{opacity:0, scale:0}}
  whileInView={{opacity:1, scale:1}}
